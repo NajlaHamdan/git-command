@@ -16,3 +16,10 @@ git branch
 git branch branch-name
 - navigate between branches
 git checkout branch-name
+- to create new branch and navigate to it in one command
+git checkout -b new-branch
+- rename brance
+git branch -m old-name new-name
+- delete branch 
+git branch -d branch-name
+note we can not delete the current branch to delete it we must check out first and then delete it
