@@ -10,6 +10,8 @@ or git add . to add multiple file
 - store files in the reposetory
 git commit -m "message"
 <img src="https://github.com/NajlaHamdan/git-command/blob/master/images/git-commit.png" width="350"/>
+
+# branches
 - display branches
 git branch
 - create new branch 
@@ -23,3 +25,18 @@ git branch -m old-name new-name
 - delete branch 
 git branch -d branch-name
 note we can not delete the current branch to delete it we must check out first and then delete it
+- display commits in the project
+git log
+git log --online
+git log --graph
+# merge
+# tag
+- display tags in the project
+git tag
+- create tag in project
+git tag tag-name
+- display tag details
+git show tag-name
+- delete tag 
+git tag -d tag-name
+
