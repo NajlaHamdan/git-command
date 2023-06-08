@@ -30,6 +30,10 @@ git log
 git log --online
 git log --graph
 # merge
+- types of merge
+1- Fast-Forward merge
+2- true merge 
+there is conflict
 # tag
 - display tags in the project
 git tag
@@ -39,4 +43,10 @@ git tag tag-name
 git show tag-name
 - delete tag 
 git tag -d tag-name
+# git cloning
+git clone link
+- upload local files or modified files to github
+git push
+- download files or modified files from github
+git pull
 
