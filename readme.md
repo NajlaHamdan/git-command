@@ -44,9 +44,19 @@ git show tag-name
 - delete tag 
 git tag -d tag-name
 # git cloning
+- download project from github
 git clone link
 - upload local files or modified files to github
 git push
 - download files or modified files from github
 git pull
 
+# remote
+- display remotes
+git remote
+- display remote with details
+git remote -v
+- add new remote
+git remote add remote-name repo-link
+- git delete remote
+git remote rm remote-name
